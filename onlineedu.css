@@ -1,0 +1,50 @@
+.container {
+    max-width: 12000;
+    margin:0px auto;
+}
+.hearder>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu>li{
+    position: relative;
+    display: inline-block;
+    list-style:none ;
+    margin-right: 25px; /*khoảng cách sang phải*/
+    padding: 5px 0px;
+}
+.menu>li>a{
+    text-decoration: none;/*xóa gạch chân xanh*/
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight:600; /*Đậm chữ*/
+    font-size: 15px; /*Cỡ chữ*/
+}
+.menu>li:hover a{
+    color:#2d3092;/*Đổi màu chữ khi chạm vào*/
+}
+.sub-menu{
+    position: absolute; /*nằm trong một mục*/
+    left: 0px;
+    top: 30px;
+    background-color:#e6e6f0;
+    margin: 0px;
+    padding: 5px 30px 5px 15px;
+    display: none;/*ẩn*/
+}
+.sub-menu>li{
+    list-style: none;
+    padding: 5px 0px;
+    width: 100px;
+}
+.sub-menu>li>a{
+    color:black;
+    text-decoration: none;
+}
+.sub-menu>li:read-only a{
+    border-style: none;
+}
+.menu>li:hover>.sub-menu{
+    display: block;/*Hiện*/
+}
