@@ -1,0 +1,212 @@
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+   
+}
+.menu>li {
+    position: relative;
+    display: inline-block;
+    list-style: none;/**/
+    margin-right: 25px;
+    padding: 5px 0px;
+    text-decoration: none;
+}
+.menu>li>a {
+    text-decoration: none;
+    color: black;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.menu>li:hover a{
+    color: #548158 /*Đổi màu chữ khi chạm vào*/
+}
+.menu>li:first-child a { /*Chữ đầu tiên hiện sẵn màu*/
+    transition: all 0,3s;
+    color: #548158;
+}
+.menu-shop{
+    display: inline-block;
+    list-style: none;
+}
+
+.menu-shop>li>a{
+   text-decoration: none;
+   font-family:Inter, sans-serif;
+   color: #ffff;
+   padding: 10px 12px;
+   background-color: #548158;
+}
+
+.cart {
+    position: relative;
+    display: inline-block;
+}
+
+.count {
+    position: absolute;
+    top: 50%; /* Can be adjusted to your preference */
+    right: -30px; /* Adjust as needed */
+    transform: translateY(-50%);
+    background: #548158; /* Background color of the count bubble */
+    color: white; /* Text color */
+    border-radius: 50%;
+    padding: 4px 8px; /* Padding around the count */
+    font-size: 14px; /* Font size of the count */
+}
+
+.hero-section{
+    height: 90vh;
+    color: rgba(0, 0, 0, 0);
+    background-image: url(/Serene/binh.png);
+    background-repeat: repeat, no-repeat;   /*khong bi lap anh*/
+    align-items: center;     /*anh o giua*/
+     padding-top: 5%;  /*khoang cach menu va nen*/
+     display: flex;
+     
+ }
+
+ .hero{
+    display: flex;
+    background-image: url(/Serene/bg.svg);
+
+ }
+
+ .hero-text{
+    
+    position: relative;
+    margin-left: 250px;
+    margin-top: 100px;
+ }
+
+ .hero-image{
+    position: relative;
+    margin-left: 150px;
+    margin-top: 100px;
+ }
+
+ .highlight{
+    color: #548158;
+ }
+
+ .hero-text h1{
+    font-family: Alice, sans-serif;
+    font-size: 55px;
+    line-height: 130%;
+ }
+
+ .hero-text p{
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    color: #7a7878;
+ }
+ .hero-buttons a{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  border: 1px solid #548158;
+  padding: 15px 15px;
+ font-weight: bold;
+ 
+ }
+.hero-buttons{
+    display: flex;
+    gap: 25px;
+}
+.view-products{
+    background-color: #446948;
+    color: #ffff;
+}
+.view-products:hover{
+    background-color: #548158;
+}
+.visit-store{
+    color: #446948;
+}
+.visit-store:hover{
+    background-color: #446948;
+    color: #ffff;
+}
+.wapper{
+    background-color: #ebe5db;
+    padding-bottom: 112px;/*Khong gian khung*/
+}
+.wapper-text{
+   text-align: center;
+   position: relative;
+  padding-top: 120px;
+}
+
+.wapper-text h2{
+    font-family: Alice, sans-serif;
+    font-size: 25px;
+    color: #446948;
+    font-weight: lighter;/*chu thanh manh*/
+}
+
+.wapper-text h1{
+    font-family: Alice, sans-serif;
+    font-size: 40px;
+    color: #2e2e2e;
+    margin-top: -15px;
+}
+.wapper-text p{
+    font-family:Inter, sans-serif ;
+    font-size:19px ;
+    color:#586259;
+    margin-top: -20px;
+}
+
+.wapper-items{
+    display: flex;
+    justify-content: space-between;
+    text-align: center; /* ra giua*/
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.wapper-items h2{
+    font-family: Alice, sans-serif;
+    font-size: 32px;
+    line-height: 130%;
+    font-weight: bold;
+    color: #2e2e2e;
+}
+
+.wapper-items p{
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    color: #586259;
+}
+.wapper-node{
+    text-align: center;
+    margin-top: 90px;
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+}
+.wapper-node a{
+    text-decoration: none;
+    color: #ffff;
+    border: 1px solid #548158;
+    padding: 15px 15px;
+    background-color: #446948;
+    font-weight: bold;
+}
+.products-sale{
+    display: flex;
+}
+

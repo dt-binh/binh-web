@@ -11,7 +11,7 @@
 }
 
 .logo{
-    padding-left: 14px;
+    padding-left: 10px;/*cach trai*/
 }
 
 .logo a{
@@ -26,7 +26,7 @@
     text-align: center;
     font-family: Pacifico, sans-serif;
     font-size: 34px;
-    line-height: 40px;
+    line-height: 20px;
 }
 
 .link-flex{
@@ -57,10 +57,11 @@
 .menu li a{
     text-decoration: none;
     font-family: "Oswald", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400px;
     text-transform: uppercase;
     color: #6c6c6c;
+    letter-spacing: 2px;
 }
 
 .menu li:hover a{
@@ -101,4 +102,374 @@
     color: #000;
 }
 
+.hero-section{
+   height: 90vh;
+   color: rgba(0, 0, 0, 0);
+   background-image: url(/img-pompeo/nen.png);
+   background-repeat: repeat, no-repeat;   /*khong bi lap anh*/
+   align-items: center;     /*anh o giua*/
+    padding-top: 5%;  /*khoang cach menu va nen*/
+    display: flex;
+    
+}
 
+.left-block{
+    text-align: left;
+    display: flex;
+}
+
+.left-block .hero{
+    flex-direction: row;
+    align-items: center;
+}
+
+.small{
+    width: 100%;
+}
+.hero-div h1{
+    color: #ac1313;
+    letter-spacing: 2px; /*khoang cach giua cac chu*/
+    font-family:Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: -60px;
+}
+
+.hero-div p{
+    color: #000;
+    font-size: 45px;
+    font-weight: 550;
+    line-height: 50px;/*Khoang cach giua 2 dong*/
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    margin-top: 20px; /*cach voi doi tuong tren*/
+}
+
+.different-font{
+    font-family: Playfair Display, sans-serif;
+    line-height: 68px;
+    color: #ac1313;
+    font-weight: 400;
+    position: relative;
+    font-size: 68px;
+}
+
+.hero-div h2{
+    color: #858585;
+    text-align: left;
+    font-size: 16px;
+    line-height: 36px;
+    margin-top: -30px;
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 500;
+}
+
+.hero-image-div a{
+    text-decoration: none;
+    background-color: #ac1313;
+    color: #ffff;
+    border-color: #000;
+    padding: 20px 40px;
+    position: relative;
+    bottom: -30px;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.hero-div a:hover{
+    background: #000;
+}
+
+.hero-imagn-div{
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+
+}
+
+.hero-image{
+    width: 1000px;
+    height: 500px;
+    background-image: url(/img-pompeo/binh.png);
+    background-position: 120%;/*Khoang cach giua binh va chu*/
+    background-repeat: no-repeat;
+    background-size: 800px;
+    margin-left: -300px;/*Cach ben trai*/
+    margin-top: -150px; /*Binh voi khung vien*/
+   
+}
+
+.hero-div a{
+   padding: 25px 40px;  /*khung*/
+    text-decoration: none; /*xoa gach chan chu*/
+    background-color: #ac1313;
+    color: #ffff;
+    font-size: 12px;
+    line-height: 100px;/* cach phan o tren*/
+    border-style: none;
+    font-family: Poppins, sans-serif;
+}
+
+.colection{
+    background-color: #ffff;
+    padding: 140px 20px;
+    position: relative;
+}
+
+.vertical-category{
+    color: #858585;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 34px;
+    position: absolute;
+    transform: rotate(-90deg) translate(0, -50%);
+    top: 1100px;
+    opacity: 0.4; /*giam mau nhat*/
+}
+
+.content-tittle{
+    color: #000;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content-tittle p{
+    color: #d77474;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.content-tittle h1{
+    font-size: 34px;
+    line-height: 40px;
+    color: #000;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.category-list{
+    width: 90%;
+    line-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.w-row{
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.w-col{
+    width: 100%;
+    display: flex;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.w-col-4{
+    width: 33.3333%;
+}
+
+.links-category{
+    color: #999;
+    justify-content: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+}
+
+.w-inline-block{
+    max-width: 100%;
+}
+
+.tab-block{
+    background: #e4b366;
+    margin-left: 0;
+    margin-right: 0;
+    width: 240px;
+    height: 200px;
+    border: 30px solid rgba(0, 0, 0, .05);
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 30px;
+    transition: .5s;
+    display: flex;
+}
+
+.tab-block img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.tab-tittle{
+    color: #ffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.div-infor-wrapper{
+    margin-top: 60px;
+}
+
+.w-col-6{
+    width: 100%;
+}
+
+.div-column-left{
+    margin-bottom: 40px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.history-tittle{
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.history-paragraph{
+    color: #4d4d4d;
+    text-align: left;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.div-column-right{
+    margin-bottom: 40px;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 250px;
+}
+
+.sale-section{
+    padding-top: 220px;
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.row-padding{
+    margin-bottom: 90px;
+}
+
+.sale-block{
+    margin-top: 120px;
+}
+
+.color-block{
+    height: 200px;
+    width: 500px;
+    background-color: #f5f5f5;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 160px;
+}
+
+.color-block img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    bottom: 100px;
+}
+
+.column{
+    margin-top: 130px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.sale-tittle{
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 34px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.column p{
+    color: #4d4d4d;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: Libre Franklin, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.button-link{
+    margin-top: 20px;
+    font-family:Poppins, sans-serif ;
+    display: inline-block;
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    transition: all .4s;
+    text-decoration: none;
+    position: absolute;
+    left: 15px;
+}
+
+.button-link:hover{
+    border-bottom: 1px solid #000;
+}
+
+.color-block-i{
+    height: 200px;
+    width: 500px;
+    background-color: #f5f5f5;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 160px;
+}
+
+.color-block-i img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    bottom: 60px;
+}
